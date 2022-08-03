@@ -1,5 +1,6 @@
 //project : Fire alram System With IOT 
 // Date :25/04/2021
+// Rusiru Shashimal Madhuwantha
 
 //Firstly, libraries are included.
 #include <Wire.h> 
@@ -29,16 +30,16 @@ int BlueLed = D7;
 //Secondly, we need to enter WIFI connection details and Telegram bot details. For that,we  use WIFI connection details and Telegram bot details.
 //Enter WIFI connection details.
 
-String ssid  = "Tweety"    ; 
-String password  = "12345678"; 
+String ssid  = "add your Router SSH"    ; 
+String password  = "Add your Router password"; 
 
 //Enter  Telegram bot token as we obtained earlier.
 
-#define BOTtoken "1939344369:AAHiS6YU4l6vvgNVI3Ha6f4N1MS-9LBzajU"
+#define BOTtoken "Add your telegram chat bot token"
 
 //Enter your Telegram chat ID as we obtained earlier.
 
-#define CHAT_ID "1535795631"
+#define CHAT_ID "add your telegram chat bot id"
 
 CTBot myBot;
 TBMessage msg;
